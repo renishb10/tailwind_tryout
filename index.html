@@ -7,7 +7,7 @@
   <title>Dartle - Home Page</title>
   <link rel="stylesheet" href="dist/css/style.css">
 </head>
-<body>
+<body class="font-body">
   <div class="container px-4 mx-auto max-w-5xl">
     <div class="text-center py-14">
       <h1 class="text-5xl font-bold font-title text-sec">
@@ -23,8 +23,127 @@
       <input type="search" name="search" class="bg-my-bg px-8 py-2 rounded-3xl shadow-inner focus:outline-none focus:ring-1 ring-sec" id="name" placeholder="Search..">
     </div>
 
-    <section >
-      Body
+    <section class="main">
+      <div class="grid grid-cols-3 gap-y-16 gap-x-12">
+        <!-- featured card -->
+        <div class="col-span-3">
+          <a href="" class="border border-gray-100 flex rounded-3xl overflow-hidden transition duration-200 hover:shadow-lg">
+            <div class="w-1/2">
+              <img src="dist/img/img1.jpg" alt="dartle blog" class="w-11/12 h-96">
+            </div>
+            <div class="w-1/2 p-7">
+              <p class="px-3 py-1 bg-my-bg rounded text-sec text-xs inline">FEATURED</p>
+              <h2 class="font-bold text-pri text-2xl font-title py-3 transition duration-200 hover:text-sec">
+                Node.js has released new version 16.5, check it out!
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ad libero enim magnam et sunt nostrum, fuga minus reiciendis adipisci quasi quia ipsa temporibus molestias consequatur voluptate aperiam ipsum quas.</p>
+              <div class="flex items-center">
+                <img src="dist/img/author1.jpg" alt="" class="w-9 h-9 rounded-full">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">John Doe</h6>
+                  <p class="text-xs text-gen">Backend Developer</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- blog cards -->
+        <div class="blog-card">
+          <a href="#">
+            <img src="dist/img/img2.jpg" alt="dartle image">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">
+                Sequi nobis, esse error optio ullam nihil velit voluptatum illum sunt, possimus, voluptatem similique ad minima nisi est?
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aut aperiam modi, fuga libero ducimus esse repellat non iusto tempora!</p>
+              <div class="flex items-center">
+                <img src="dist/img/author1.jpg" alt="" class="w-9 h-9 rounded-full">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">John Doe</h6>
+                  <p class="text-xs text-gen">Backend Developer</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="blog-card">
+          <a href="#">
+            <img src="dist/img/img2.jpg" alt="dartle image">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">
+                Sequi nobis, esse error optio ullam nihil velit voluptatum illum sunt, possimus, voluptatem similique ad minima nisi est?
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aut aperiam modi, fuga libero ducimus esse repellat non iusto tempora!</p>
+              <div class="flex items-center">
+                <img src="dist/img/author1.jpg" alt="" class="w-9 h-9 rounded-full">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">John Doe</h6>
+                  <p class="text-xs text-gen">Backend Developer</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="blog-card">
+          <a href="#">
+            <img src="dist/img/img2.jpg" alt="dartle image">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">
+                Sequi nobis, esse error optio ullam nihil velit voluptatum illum sunt, possimus, voluptatem similique ad minima nisi est?
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aut aperiam modi, fuga libero ducimus esse repellat non iusto tempora!</p>
+              <div class="flex items-center">
+                <img src="dist/img/author1.jpg" alt="" class="w-9 h-9 rounded-full">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">John Doe</h6>
+                  <p class="text-xs text-gen">Backend Developer</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- last blog cards -->
+        <div class="blog-card col-span-2">
+          <a href="#">
+            <img src="dist/img/img2.jpg" alt="dartle image">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">
+                Sequi nobis, esse error optio ullam nihil velit voluptatum illum sunt, possimus, voluptatem similique ad minima nisi est?
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aut aperiam modi, fuga libero ducimus esse repellat non iusto tempora!</p>
+              <div class="flex items-center">
+                <img src="dist/img/author1.jpg" alt="" class="w-9 h-9 rounded-full">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">John Doe</h6>
+                  <p class="text-xs text-gen">Backend Developer</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="blog-card">
+          <a href="#">
+            <img src="dist/img/img2.jpg" alt="dartle image">
+            <div class="px-4 pb-6">
+              <h2 class="post-title">
+                Sequi nobis, esse error optio ullam nihil velit voluptatum illum sunt, possimus, voluptatem similique ad minima nisi est?
+              </h2>
+              <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aut aperiam modi, fuga libero ducimus esse repellat non iusto tempora!</p>
+              <div class="flex items-center">
+                <img src="dist/img/author1.jpg" alt="" class="w-9 h-9 rounded-full">
+                <div class="pl-3">
+                  <h6 class="text-xs text-pri font-bold">John Doe</h6>
+                  <p class="text-xs text-gen">Backend Developer</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
     </section>
   </div>
 </body>
