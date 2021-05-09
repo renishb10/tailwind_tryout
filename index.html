@@ -9,8 +9,8 @@
 </head>
 <body class="font-body">
   <div class="container px-4 mx-auto max-w-5xl">
-    <div class="text-center py-14">
-      <h1 class="text-5xl font-bold font-title text-sec">
+    <div class="text-center py-10 lg:py-14">
+      <h1 class="text-3xl md:text-5xl font-bold font-title text-sec">
         Latest Blogs
         <br/>
         <span class="text-pri">Posts</span>
@@ -24,16 +24,16 @@
     </div>
 
     <section class="main">
-      <div class="grid grid-cols-3 gap-y-16 gap-x-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-8 lg:gap-y-16 sm:gap-y-12 lg:gap-x-12 gap-x-8">
         <!-- featured card -->
-        <div class="col-span-3">
-          <a href="" class="border border-gray-100 flex rounded-3xl overflow-hidden transition duration-200 hover:shadow-lg">
-            <div class="w-1/2">
-              <img src="dist/img/img1.jpg" alt="dartle blog" class="w-11/12 h-96">
+        <div class="col-span-1 md:col-span-2 lg:col-span-3">
+          <a href="" class="block border border-gray-100 md:flex rounded-3xl overflow-hidden transition duration-200 hover:shadow-lg">
+            <div class="md:w-1/2">
+              <img src="dist/img/img1.jpg" alt="dartle blog">
             </div>
-            <div class="w-1/2 p-7">
+            <div class="md:w-1/2 p-4 md:p-7">
               <p class="px-3 py-1 bg-my-bg rounded text-sec text-xs inline">FEATURED</p>
-              <h2 class="font-bold text-pri text-2xl font-title py-3 transition duration-200 hover:text-sec">
+              <h2 class="font-bold text-pri text:xl md:text-2xl font-title py-3 transition duration-200 hover:text-sec">
                 Node.js has released new version 16.5, check it out!
               </h2>
               <p class="text-gen pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ad libero enim magnam et sunt nostrum, fuga minus reiciendis adipisci quasi quia ipsa temporibus molestias consequatur voluptate aperiam ipsum quas.</p>
@@ -105,7 +105,7 @@
         </div>
 
         <!-- last blog cards -->
-        <div class="blog-card col-span-2">
+        <div class="blog-card col-span-1 lg:col-span-2">
           <a href="#">
             <img src="dist/img/img2.jpg" alt="dartle image">
             <div class="px-4 pb-6">
@@ -146,8 +146,8 @@
     </section>
 
     <section class="subscribe">
-      <div class="text-center mx-auto py-12">
-        <h6 class="text-5xl font-bold font-title text-pri">
+      <div class="text-center mx-auto py-12 sm:py-20 lg:py-12">
+        <h6 class="text-3xl md:text-5xl font-bold font-title text-pri">
           Latest Blogs
           <br/>
           <span class="text-sec">Blog</span>
@@ -156,14 +156,14 @@
           Please subscribe to get regular updates and featured news through your email!
         </p>
         <input type="email" name="" id="" class="px-8 py-2 bg-my-bg rounded-3xl shadow-inner focus:outline-none" placeholder="Email address">
-        <input type="submit" value="Submit" class="py-2 px-8 bg-sec rounded-3xl text-white hover:bg-blue-800 focus:outline-none focus:ring-1 -ml-12">
+        <input type="submit" value="Submit" class="py-2 px-8 bg-sec rounded-3xl text-white hover:bg-blue-800 focus:outline-none focus:ring-1 sm:-ml-12 sm:mt-0 mt-4">
       </div>
     </section>
   </div>
 
   <!-- footer -->
   <footer class="bg-pri">
-    <div class="flex text-white font-bold py-8 font-title font-extrabold justify-around max-w-5xl mx-auto">
+    <div class="sm:flex text-center text-white font-bold py-8 font-title font-extrabold justify-around max-w-5xl mx-auto">
       <p>Dartle</p>
       <p>All rights reserved @2021</p>
     </div>
